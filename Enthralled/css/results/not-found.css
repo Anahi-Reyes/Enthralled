@@ -1,0 +1,16 @@
+.not__found{
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    margin-left: 5rem;
+    line-height: 2;
+    margin-top: 9rem;
+}
+.container__img__not__found{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.not__found__img{
+    width: 28rem;
+    height: 28rem;
+}

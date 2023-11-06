@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enthralled</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/header/header.css" rel="stylesheet">
+    <link href="/css/main/main.css" rel="stylesheet">
+    <link href="/css/results/results.css" rel="stylesheet">
+    <link href="/css/results/not-found.css" rel="stylesheet">
+    <link href="/css/header/museum-list.css" rel="stylesheet">
+    <script src="/buttonMuseum.js"></script>
+    <link href="/css/results/share.css" rel="stylesheet">
+    <script src="/app.js"></script>
+</head>
+
+<body>
+    <header class="container__banner">
+        <h1 class="title"><a href="/index.html">Enthralled</a></h1>
+        <div class="container__subtopics">
+            <p class="subtopics"> <a href="#">Origin of art</a></p>
+            <p class="subtopics"> <a href="#">What is the art?</a></p>
+            <p class="subtopics">  <a href="#">Popular artists</a></p>
+
+            <div>
+                <img alt="Museum Icon" src="/img/museum.png" class="image-popup museum__icon" onmouseover="mostrarPopup()"/>
+                <div id="popupCountries" class="popup" onmouseover="mostrarPopup()" onmouseout="ocultarPopup()">
+                    <ul>
+                        <li><a href="/museums/Mexico/museums-mexico.html">Mexico</a></li>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">USA</a></li>
+                        <li><a href="#">Paris</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container__main">
+        <div class="container__find">
+            <h1 class="find">Find the works of art</h1>
+        </div>
+
+        <div class="container__is">
+            <div class="container__search">
+                <img class="search__img" alt="search Icon" src="/img/search.png">
+                <input class="input__text" type="text" id="searchAuthor" onkeydown="searchArtworksByAuthor(event)"
+                    placeholder="Search by author...">
+            </div>
+        </div>
+        <div class="container__results" id="results"></div>
+    </main>
+
+</body>
+
+</html>

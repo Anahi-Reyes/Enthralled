@@ -1,0 +1,39 @@
+.container__museums{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.outline{
+    margin: 2rem 0;
+}
+.title__list{
+    font-weight: 800;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+.seccion__museum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.container__img__museum{
+    width: 50%;
+}
+.img__museum{
+    width: 90%;
+    height: 90%;
+}
+
+.text__list{
+    width: 40%;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: large;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enthralled</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/main/main.css" rel="stylesheet">
+    <link href="/css/header/museum-list.css" rel="stylesheet">
+    <link href="/css/header/header.css" rel="stylesheet">
+    <link href="/css/museums/title-museums.css" rel="stylesheet">
+    <link href="/css/museums/list-museums.css" rel="stylesheet">
+    <script src="/buttonMuseum.js"></script>
+</head>
+<body>
+    <header class="container__banner">
+        <h1 class="title"><a href="/index.html">Enthralled</a></h1>
+        <div class="container__subtopics">
+            <p class="subtopics"> <a href="#">Origin of art</a></p>
+            <p class="subtopics"> <a href="#">What is the art?</a></p>
+            <p class="subtopics">  <a href="#">Popular artists</a></p>
+
+            <div>
+                <img alt="Museum Icon" src="/img/museum.png" class="image-popup museum__icon" onmouseover="mostrarPopup()"/>
+                <div id="popupCountries" class="popup" onmouseover="mostrarPopup()" onmouseout="ocultarPopup()">
+                    <ul>
+                        <li><a href="#">Mexico</a></li>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">USA</a></li>
+                        <li><a href="#">Paris</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container__title__countries">
+            <div class="banner">
+                <h1 class="title__countries">Popular museums in Mexico</h1>
+            </div>
+        </div>
+
+        <div class="container__museums">
+            <div class="outline">
+                <h2 class="title__list"><a href="https://www.museofridakahlo.org.mx/">Frida Kahlo Museum</a><h2>
+                    <div>
+                        <ul class="seccion__museum">
+                            <li class="container__img__museum"><img class="img__museum" alt="Image Museum" src="/img/MuseumsMexico/FridaKahlo.jpg"></li>
+                            <li class="text__list">The Frida Kahlo Museum is a popular destination for both art lovers and those who want to learn 
+                                    more about the life and work of this iconic Mexican artist. It allows you to immerse yourself in
+                                     the life and creative spirit of Frida Kahlo as you explore her home and her artistic legacy.
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+
+            <div>
+                <h2 class="title__list left"><a href="https://www.museofridakahlo.org.mx/">Anthropology National Museum</a><h2>
+                    <div>
+                        <ul class="seccion__museum">
+                            <li class="text__list">The National Museum of Anthropology is a cultural treasure that allows visitors to explore 
+                                Mexico's rich history, its indigenous cultures and its artistic heritage. It is an essential 
+                                place to understand the cultural diversity and archaeological wealth of Mexico and has played a
+                                fundamental role in the preservation and promotion of the nation's cultural heritage.
+                            </li>
+                            <li class="container__img__museum"><img class="img__museum" alt="Image Museum" src="/img/MuseumsMexico/antrhopology.jpg"></li>
+                        </ul>
+                    </div>
+            </div>
+            
+            <div>
+                <h2 class="title__list"><a href="https://www.museofridakahlo.org.mx/">Soumaya Museum</a><h2>
+                    <div>
+                        <ul class="seccion__museum">
+                            <li class="container__img__museum"><img class="img__museum" alt="Image Museum" src="/img/MuseumsMexico/Soumaya.jpg"></li>
+                            <li class="text__list">The Soumaya Museum is a place that combines architectural beauty with a vast collection of art
+                                of high cultural and historical value. It is a cultural space that promotes free access to 
+                                culture and enriches the cultural life of Mexico City. Its artistic diversity and architecture 
+                                make it a must-see for art lovers and tourists.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
